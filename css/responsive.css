@@ -1,0 +1,71 @@
+@media screen and (max-width:770px){
+    .navbar{
+        width: 90%;
+    }
+    .logo h2 a{
+        font-size: 20px;
+    }
+    #menu_bar{
+        display: grid;
+        color: #fff;
+        position: absolute;
+        right: 5%;
+        top: 20%;
+        width: 30px;
+        height: 30px;
+        justify-content: end;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .nav_links{
+       display: none;
+    }
+   .inner_home{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+   }
+   .child_home{
+    flex-basis: 100%;
+   }
+   .innersoftware{
+    display: block;
+   }
+   .innersoftware_child{
+    flex-basis: 100%;
+    margin-bottom: 30px;
+   }
+   .child_courses{
+    flex-basis: 100%;
+    margin-bottom: 30px;
+   }
+   .child_achivement2{
+    flex-basis: 100%;
+    margin-bottom: 30px;
+   }
+   .child_achivement{
+    flex-basis: 100%;
+    margin-bottom: 30px;
+   }
+   .single_detail{
+    flex-basis: 100%;
+   }
+   .child_testi{
+    flex-basis: 100%;
+    margin-bottom: 40px;
+   }
+   .child_testi:last-child{
+    margin-bottom: 0;
+   }
+   .child_contact{
+    flex-basis: 100%;
+    margin-bottom: 40px;
+   }
+   .child_footer{
+    flex-basis: 100%;
+    margin-bottom: 40px;
+   }
+    
+   
+
+}
